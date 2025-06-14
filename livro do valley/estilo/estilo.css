@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #007bff, #28a745);
+  font-family: 'Pixel', sans-serif; /* opcional, para combinar com o tema */
+}
+.painel-central {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 40px;
+  background: linear-gradient(to bottom, #bfa87a, #a88f63); /* efeito papel */
+  border: 3px solid #3e2e13; 
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(1px);
+}
+/* topo geral */
+.topo {
+  background-color: #8a4b13; /* marrom Stardew */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: 'Press Start 2P', monospace; /* fonte pixelada */
+  color: white;
+}
+
+/* logo e nome */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  image-rendering: pixelated; /* mantém o estilo retrô */
+}
+
+.logo span {
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+/* campo de pesquisa */
+.pesquisa {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 3px 6px;
+}
+
+.pesquisa input {
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.6rem;
+}
+
+.pesquisa button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 5px;
+  color: brown;
+}
+
+/* menu de navegação */
+.menu {
+  background-color: #a1672b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 8px;
+  margin: 10px auto;
+  width: fit-content;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.menu a {
+  background-color: #c2955c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Press Start 2P', monospace;
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,0.4);
+}
+
+.menu a img {
+  width: 16px;
+  image-rendering: pixelated;
+}
+
+img{width: 18px;
+  height: 18px;
+
+}
+#logo-site {
+  width: 50px;
+  height: 50px;
+  image-rendering: pixelated;
+}
+
+#logo-livro {
+  width: 400px;
+  height: 130px;
+  display: block;
+  margin: 0 auto;
+}
