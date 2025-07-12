@@ -3,18 +3,37 @@ body {
   padding: 0;
   min-height: 100vh;
   background: linear-gradient(to bottom, #007bff, #28a745);
-  font-family: 'Pixel', sans-serif; /* opcional, para combinar com o tema */
+  font-family: 'Pixel', sans-serif; /* para combinar com o tema */
 }
 .painel-central {
   width: 90%;
   max-width: 1000px;
-  margin: 30px auto;
+  margin: auto;
   padding: 40px;
   background: linear-gradient(to bottom, #bfa87a, #a88f63); /* efeito papel */
   border: 3px solid #3e2e13; 
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(1px);
+}
+
+.painel-central p{
+ font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  align-items: center;
+  flex: auto;
+  text-align: center;
+  justify-content: center;
+  ;
+}
+.direita p{
+  display: flex;
+  justify-content: start;
+}
+.esquerda p{
+  display: flex;
+  justify-content: end;
+  
 }
 /* topo geral */
 .topo {
@@ -36,7 +55,7 @@ body {
 
 .logo img {
   width: 40px;
-  image-rendering: pixelated; /* mantém o estilo retrô */
+  image-rendering: pixelated; 
 }
 
 .logo span {
@@ -77,12 +96,15 @@ body {
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 12px;
   padding: 8px;
-  margin: 10px auto;
   width: fit-content;
   box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  margin: 60px auto 0 auto;
+
 }
+
 
 .menu a {
   background-color: #c2955c;
