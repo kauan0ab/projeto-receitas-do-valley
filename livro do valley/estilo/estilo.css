@@ -10,7 +10,7 @@ body {
   max-width: 1000px;
   margin: auto;
   padding: 40px;
-  background: linear-gradient(to bottom, #bfa87a, #a88f63); /* efeito papel */
+  background: linear-gradient(to bottom, #bfa87a, #a88f63); 
   border: 3px solid #3e2e13; 
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
@@ -27,8 +27,7 @@ body {
 }
 .conteudo-das-receitas {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: inline-block;
    width: 100%;
   max-width: 800px;
   margin: 0 auto;
